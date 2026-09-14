@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="PT-br">
 <head>
@@ -18,8 +20,11 @@
         $mostrar = "Você é menor de idade!";
     }
     ?>
-    <h1>nome: <?= $nome?> </h1>
-    <h2>idade: <?= $idade?></h2>
-    <p>mostrar: <?= $mostrar?></p>
+    <div class="card">
+
+        <h1>nome: <?= $nome?> </h1>
+        <h2>idade: <?= $idade?></h2>
+        <p>mostrar: <?= $mostrar?></p>
+    </div>
 </body>
 </html>

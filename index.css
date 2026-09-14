@@ -1,0 +1,14 @@
+.card h1{
+    text-align: center;
+    font-size: large;
+}
+
+.card h2{
+    text-align: center;
+    font-size: medium;
+}
+
+.card p{
+    text-align: center;
+    font-size: small;
+}
