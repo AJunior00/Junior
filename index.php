@@ -9,8 +9,17 @@
 
     <?php
     $nome = "Mr_junior";
-    $idade = "17"?>
+    $idade = "17";
+    $mostar = "0"
+    if ($idade >=18){
+        $mostrar = "Você é maior de idade"
+    };
+    else ($idade <=18){
+        $mostrar = "Você é menor de idade!"
+    };
+    ?>
     "<h1>nome: <?= $nome ?> </h1>"
     "<h2>idade: <?= $idade ?></h2>"
+    "<p>mostrar: <?= $mostrar ?></p>"
 </body>
 </html>
