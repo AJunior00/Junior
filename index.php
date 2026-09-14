@@ -10,7 +10,7 @@
     <?php
     $nome = "Mr_junior";
     $idade = "17";
-    $mostar = "0"
+    $mostar = ""
     if ($idade >=18){
         $mostrar = "Você é maior de idade"
     };
