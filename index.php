@@ -14,12 +14,12 @@
     if ($idade >=18){
         $mostrar = "Você é maior de idade";
     }
-    else ($idade <=18){
-        $mostrar = "Você é menor de idade!"
+    else {
+        $mostrar = "Você é menor de idade!";
     }
     ?>
-    <h1>nome: <?= $nome ?> </h1>
-    <h2>idade: <?= $idade ?></h2>
-    <p>mostrar: <?= $mostrar ?></p>
+    <h1>nome: <?= $nome?> </h1>
+    <h2>idade: <?= $idade?></h2>
+    <p>mostrar: <?= $mostrar?></p>
 </body>
 </html>
