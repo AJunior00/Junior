@@ -7,8 +7,8 @@
 </head>
 <body>
 
-    $nome = "Mr_junior";
     <?php
+    $nome = "Mr_junior";
     echo"<h1>Olá, $nome </h1>"?>
 </body>
 </html>
