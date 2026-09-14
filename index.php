@@ -11,6 +11,6 @@
     $nome = "Mr_junior";
     $idade = "17"?>
     "<h1>nome: <?= $nome ?> </h1>"
-    "<h2>idade: < ?= $idade ?></h2>"
+    "<h2>idade: <?= $idade ?></h2>"
 </body>
 </html>
