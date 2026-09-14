@@ -9,8 +9,8 @@
 
     <?php
     $nome = "Mr_junior";
-    $idade = "17"
-    echo"<h1>Olá, $nome </h1>"
-    "<h2>eu tenho $idade </h2>"?>
+    $idade = "17"?>
+    "<h1>nome: <?= $nome ?> </h1>"
+    "<h2>idade: < ?= $idade ?></h2>"
 </body>
 </html>
