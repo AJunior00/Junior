@@ -10,13 +10,13 @@
     <?php
     $nome = "Mr_junior";
     $idade = "17";
-    $mostar = ""
+    $mostar = "";
     if ($idade >=18){
-        $mostrar = "Você é maior de idade"
-    };
+        $mostrar = "Você é maior de idade";
+    }
     else ($idade <=18){
         $mostrar = "Você é menor de idade!"
-    };
+    }
     ?>
     <h1>nome: <?= $nome ?> </h1>
     <h2>idade: <?= $idade ?></h2>
