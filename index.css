@@ -1,5 +1,5 @@
 .card{
-    background-color: rgb(218, 70, 70);
+    background-color: rgb(255, 255, 255);
    
 }
 
@@ -12,11 +12,11 @@
 .card h2{
     text-align: center;
     font-size: medium;
-    color: rgb(54, 156, 245);
+    color: rgb(27, 132, 224);
 }
 
 .card p{
     text-align: center;
-    font-size: small;
+    font-size: 20px;
     color: rgb(21, 228, 32);
 }
