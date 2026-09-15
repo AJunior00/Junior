@@ -24,7 +24,7 @@
 
     <input type="number" id="$idade" placeholder="Digite sua idade">
 
-    <input type="submite" value="Enviar">
+    <input type="submit" value="Enviar">
     </form>
 
     <div class="card">
@@ -35,8 +35,11 @@
         <?php
 
 $nome = "";
+
 $idade = 0;
+
 $mostar = "";
+
 if ($_SERVER ["REQUEST_METHOD"] == "POST"){
     
     $nome = $_POST["nome"];
