@@ -16,9 +16,11 @@
     <input type="text" name="$nome" placeholder="Digite seu Nome">
 
     <input type="number" id="$idade" placeholder="Digite sua idade">
+
+    <input type="button" value="Enviar">
     </form>
 
-    
+
     <?php
     $nome = "Mr_junior";
     $idade = "17";
