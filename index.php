@@ -10,6 +10,15 @@
 </head>
 <body>
 
+
+<form action="">
+
+    <input type="text" name="$nome" placeholder="Digite seu Nome">
+
+    <input type="number" id="$idade" placeholder="Digite sua idade">
+    </form>
+
+    
     <?php
     $nome = "Mr_junior";
     $idade = "17";
