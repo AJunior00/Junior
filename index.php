@@ -38,7 +38,7 @@ $nome = "";
 
 $idade = 0;
 
-$mostar = "";
+$mostrar = "";
 
 if ($_SERVER ["REQUEST_METHOD"] == "POST"){
     
