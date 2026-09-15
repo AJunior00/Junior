@@ -12,10 +12,10 @@ if ($_SERVER ["REQUEST_METHOD"] == "POST"){
     $idade = $_POST["idade"];
     
     if ($idade >=18){
-        $mostrar = "Maior";
+        $mostrar = " De Maior";
     }
     else {
-        $mostrar = "Menor!";
+        $mostrar = "De Menor";
     }
 }
 ?>
@@ -33,9 +33,7 @@ if ($_SERVER ["REQUEST_METHOD"] == "POST"){
 
 <form method="POST">
 
-    <input type="text" id="nome" name="nome">
-
-    <input type="text" name="$nome" placeholder="Digite seu Nome">
+    <input type="text" id="nome" name="nome" placeholder="Digite seu Nome">
 
     <input type="number" id="$idade" placeholder="Digite sua idade">
 
@@ -55,7 +53,11 @@ if ($_SERVER ["REQUEST_METHOD"] == "POST"){
         </h2>
         
         <?php } ?>
-    
+        
+        <h1>O meu nome é <?=  $nome?> </h1>
+        <h2>Minha idade é <?=  $idade?> </h2>
+        <p>De acordo com a idade, eu sou <?= $mostrar ?></p>
+
     </div>
         
     </body>
