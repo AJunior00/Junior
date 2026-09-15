@@ -11,7 +11,7 @@ if ($_SERVER ["REQUEST_METHOD"] == "POST"){
     $nome = $_POST["nome"];
     $idade = $_POST["idade"];
     
-    if ($idade >=18){
+    if ($idade <=18){
         $mostrar = " De Maior";
     }
     else {
@@ -43,13 +43,13 @@ if ($_SERVER ["REQUEST_METHOD"] == "POST"){
     <div class="card">
 
         
-        <h1>Mostrando idade</h1>
+        <h1>Mostrando Nome, Idade e resultado</h1>
         
     
     <?php if ($mostrar != "") { ?>
         
         <h2>
-            o <?= $nome ?> é <?= $mostrar ?> de idade.
+            o <?= $nome ?> é <?= $mostrar ?> .
         </h2>
         
         <?php } ?>
