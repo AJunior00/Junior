@@ -1,9 +1,24 @@
-<div class="card">
-<h1>nome: <?= $nome?> </h1>
-        <h2>idade: <?= $idade?></h2>
-        <p>mostrar: <?= $mostrar?></p>
+<?php
 
-</div>
+$nome = "";
+
+$idade = 0;
+
+$mostrar = "";
+
+if ($_SERVER ["REQUEST_METHOD"] == "POST"){
+    
+    $nome = $_POST["nome"];
+    $idade = $_POST["idade"];
+    
+    if ($idade >=18){
+        $mostrar = "Maior";
+    }
+    else {
+        $mostrar = "Menor!";
+    }
+}
+?>
 
 <!DOCTYPE html>
 <html lang="PT-br">
@@ -32,27 +47,6 @@
         
         <h1>Mostrando idade</h1>
         
-        <?php
-
-$nome = "";
-
-$idade = 0;
-
-$mostrar = "";
-
-if ($_SERVER ["REQUEST_METHOD"] == "POST"){
-    
-    $nome = $_POST["nome"];
-    $idade = $_POST["idade"];
-    
-    if ($idade >=18){
-        $mostrar = "Você é maior de idade";
-    }
-    else {
-        $mostrar = "Você é menor de idade!";
-    }
-}
-?>
     
     <?php if ($mostrar != "") { ?>
         
