@@ -57,7 +57,7 @@ if ($_SERVER ["REQUEST_METHOD"] == "POST"){
     <?php if ($mostrar != "") { ?>
         
         <h2>
-            o <?= $nome ?> é <?= $mostrar ?> de idade. 
+            o <?= $nome ?> é <?= $mostrar ?> de idade.
         </h2>
         
         <?php } ?>
