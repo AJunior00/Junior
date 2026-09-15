@@ -35,7 +35,7 @@ if ($_SERVER ["REQUEST_METHOD"] == "POST"){
 
     <input type="text" id="nome" name="nome" placeholder="Digite seu Nome">
 
-    <input type="number" id="idade" placeholder="Digite sua idade">
+    <input type="number" id="idade"  name="idade" placeholder="Digite sua idade">
 
     <input type="submit" value="Enviar">
     </form>
