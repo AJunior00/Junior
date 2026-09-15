@@ -2,7 +2,7 @@
 
 $nome = "";
 
-$idade = "";
+$idade = 0;
 
 $mostrar = "";
 
