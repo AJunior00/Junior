@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Notas!</title>
 </head>
 <body>
-    <a href="idade.php">verificador de idade</a>
-    <a href="notas.php">verificador de notas</a>
+    <h1>sua nota é igual a zero lixooo</h1>
 </body>
 </html>

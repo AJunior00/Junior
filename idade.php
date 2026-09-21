@@ -46,18 +46,9 @@ if ($_SERVER ["REQUEST_METHOD"] == "POST"){
         
         <h1>Mostrando Nome, Idade e resultado</h1>
         
-    
-    <?php if ($mostrar != "") { ?>
-        
-        <h2>
-            o <?= $nome ?> é <?= $mostrar ?> .
-        </h2>
-        
-        <?php } ?>
         
         <h1>O meu nome é <?=  $nome?> </h1>
         <h2>Minha idade é <?=  $idade?> </h2>
-        <p>De acordo com a idade, eu sou <?= $mostrar ?></p>
 
     </div>
         
