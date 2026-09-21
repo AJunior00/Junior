@@ -3,5 +3,6 @@
     text-align: center;
     border: 1px solid black;
     border-radius: 10px;
-    /*width: 135px;*/
+    width: 135px;
+    padding: 5px;
 }
