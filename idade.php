@@ -41,7 +41,7 @@ if ($_SERVER ["REQUEST_METHOD"] == "POST"){
     <input type="submit" value="Enviar">
     </form>
 
-    <div class="card">
+    <div class="cardIdade">
 
         
         <h1>Mostrando Nome, Idade e resultado</h1>

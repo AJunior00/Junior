@@ -7,3 +7,14 @@
     border-radius: 10px;
     padding: 5px;
 }
+
+.cardIdade{
+
+    width: 150px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: darkgrey;
+}
