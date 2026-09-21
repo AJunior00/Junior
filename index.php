@@ -7,6 +7,7 @@
 </head>
 <body>
     <a href="idade.php">verificador de idade</a>
+    <br>
     <a href="notas.php">verificador de notas</a>
 </body>
 </html>
