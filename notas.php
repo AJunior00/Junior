@@ -10,15 +10,15 @@
     $media = "";
     $resultado = "";
 
-    if ($_SERVER ["REQUEST_METHOD"] == "GET"){
+    if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     $nome = $_POST["nome"];
     $idade = $_POST["idade"];
-    $nota1 = $_POST["nota1"];
-    $nota2 = $_POST["nota2"];
-    $nota3 = $_POST["nota3"];
-    $nota4 = $_POST["nota4"];
-    $nota5 = $_POST["nota5"];
+    $nota1 = (float) $_POST["nota1"];
+    $nota2 = (float) $_POST["nota2"];
+    $nota3 = (float) $_POST["nota3"];
+    $nota4 = (float) $_POST["nota4"];
+    $nota5 = (float) $_POST["nota5"];
 
 
 
@@ -64,6 +64,16 @@
         <br><br>
         <button type="submit">Calcular</button>
     </form>
+
+    <?php if ($_SERVER["REQUEST_METHOD"] === "POST") { ?>
+        <div class="card">
+            <h1>Resultado</h1>
+            <p>Nome: <?= htmlspecialchars($nome) ?></p>
+            <p>Idade: <?= htmlspecialchars($idade) ?> anos</p>
+            <p>Média ponderada: <?= number_format($media, 1, ",", ".") ?></p>
+            <h2><?= $resultado ?></h2>
+        </div>
+    <?php } ?>
 
 </body>
 </html>
