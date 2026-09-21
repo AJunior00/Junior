@@ -24,9 +24,9 @@
 
         $media = ($nota1 * 2 + $nota2 * 3 + $nota3 * 1 + $nota4 * 1 + $nota5 * 3) / 10;
         
-        if ($media >= 7) {
+        if ($media >= 7.0) {
             $resultado = "APROVADO";
-        } elseif ($media >= 5){
+        } elseif ($media >= 5.0){
             $resultado = "RECUPERAÇÃO";
         } else {
             $resultado = "REPROVADO";
