@@ -1,3 +1,42 @@
+<?php
+
+    $nota1 = "";
+    $nota2 = "";
+    $nota3 = "";
+    $nota4 = "";
+    $nota5 = "";
+    $nome = "";
+    $idade = "";
+    $media = "";
+    $resultado = "";
+
+    if ($_SERVER ["REQUEST_METHOD"] == "GET"){
+
+    $nome = $_POST["nome"];
+    $idade = $_POST["idade"];
+    $nota1 = $_POST["nota1"];
+    $nota2 = $_POST["nota2"];
+    $nota3 = $_POST["nota3"];
+    $nota4 = $_POST["nota4"];
+    $nota5 = $_POST["nota5"];
+
+
+
+        $media = ($nota1 * 2 + $nota2 * 3 + $nota3 * 1 + $nota4 * 1 + $nota5 * 3) / 10;
+        
+        if ($media >= 7) {
+            $resultado = "APROVADO";
+        } elseif ($media >= 5){
+            $resultado = "RECUPERAÇÃO";
+        } else {
+            $resultado = "REPROVADO";
+        }
+    }
+        ?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +45,25 @@
     <title>Notas!</title>
 </head>
 <body>
-    <h1>sua nota é igual a zero lixooo</h1>
+        <h1>Cadastro do aluno</h1>
+
+    <form method="POST">
+        <input type="text" name="nome" placeholder="Digite seu nome" required>
+        <br><br>
+        <input type="number" name="idade" placeholder="Digite sua idade" required>
+        <br><br>
+        <input type="number" name="nota1" placeholder="Nota 1" step="0.1" required>
+        <br><br>
+        <input type="number" name="nota2" placeholder="Nota 2" step="0.1" required>
+        <br><br>
+        <input type="number" name="nota3" placeholder="Nota 3" step="0.1" required>
+        <br><br>
+        <input type="number" name="nota4" placeholder="Nota 4" step="0.1" required>
+        <br><br>
+        <input type="number" name="nota5" placeholder="Nota 5" step="0.1" required>
+        <br><br>
+        <button type="submit">Calcular</button>
+    </form>
+
 </body>
 </html>
