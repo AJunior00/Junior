@@ -12,6 +12,7 @@
 
         <h1>cadastro do aluno</h1>
 
+
     </div>
 
     <a href="idade.php">verificador de idade</a>
