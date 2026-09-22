@@ -35,17 +35,18 @@ if ($_SERVER ["REQUEST_METHOD"] == "POST"){
 <form method="POST">
 
     <input type="text" id="nome" name="nome" placeholder="Digite seu Nome">
+    <br>
 
     <input type="number" id="idade"  name="idade" placeholder="Digite sua idade">
-
+<br>
     <input type="submit" value="Enviar">
     </form>
 
     <div class="cardIdade">
 
         
-        <h1>Mostrando Nome, Idade e resultado</h1>
-        
+        <h1>Mostrando Nome e Idade</h1>
+        <br>
         
         <p>O meu nome é <?=  $nome?> </p>
         <p>Minha idade é <?=  $idade?> </p>
