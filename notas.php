@@ -96,7 +96,7 @@
             <p>Nome: <?= htmlspecialchars($nome) ?></p>
             <p>Idade: <?= htmlspecialchars($idade) ?> anos</p>
             <p>Média Final: <?= number_format($media, 1, ",", ".") ?></p>
-            <h2><?= $resultado ?></h2>
+            <h2><span class="<?= $cor ?>"><?= $resultado ?></span></h2>
         </div>
     <?php } ?>
 
