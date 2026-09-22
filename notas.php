@@ -47,7 +47,7 @@
 
 </head>
 <body>
-        <h1>Cadastro do aluno</h1>
+        <h1>Leitor de notas</h1>
 
     <form method="POST">
         <input type="text" name="nome" placeholder="Digite seu nome" required>
@@ -58,23 +58,23 @@
         
         <br><br>
         
-        <input type="number" name="nota1" placeholder="Nota 1" step="0.1" required>
+        <input type="number" name="nota1" placeholder="Digite a primeira Nota" step="0.1" required>
         
         <br><br>
         
-        <input type="number" name="nota2" placeholder="Nota 2" step="0.1" required>
+        <input type="number" name="nota2" placeholder="Digite a segunda Nota" step="0.1" required>
         
         <br><br>
         
-        <input type="number" name="nota3" placeholder="Nota 3" step="0.1" required>
+        <input type="number" name="nota3" placeholder="Digite a terceira Nota" step="0.1" required>
         
         <br><br>
         
-        <input type="number" name="nota4" placeholder="Nota 4" step="0.1" required>
+        <input type="number" name="nota4" placeholder="Digite a quarta Nota" step="0.1" required>
         
         <br><br>
         
-        <input type="number" name="nota5" placeholder="Nota 5" step="0.1" required>
+        <input type="number" name="nota5" placeholder="Digite a quinta Nota" step="0.1" required>
         
         <br><br>
         
