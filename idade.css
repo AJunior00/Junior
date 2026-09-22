@@ -38,10 +38,11 @@ p {
 
     padding: 10px;
     margin: auto;
+    width: 130px;
 }
 
-input,button{
+button{
 
-    width: 110px;
+    width: 100px;
     margin: auto;
 }
