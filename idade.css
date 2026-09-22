@@ -40,7 +40,7 @@ p {
     margin: auto;
 }
 
-input{
+input,button{
 
     width: 110px;
     margin: auto;
