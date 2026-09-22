@@ -10,14 +10,14 @@
 <body>
     <div class="card">
 
-        <h1>cadastro do aluno</h1>
+        <h1>Sobre o Aluno</h1>
 
 
     </div>
 
-    <a href="idade.php">verificador de idade</a>
+    <a href="idade.php">Verificador de Idade</a>
     <br>
     <br>
-    <a href="notas.php">verificador de notas</a>
+    <a href="notas.php">Verificador de Notas</a>
 </body>
 </html>
