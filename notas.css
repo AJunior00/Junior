@@ -10,6 +10,11 @@ body{
  
 }
 
+.card {
+
+    background-color: aliceblue;
+}
+
 button{
 
     background-color: rgb(117, 117, 117);

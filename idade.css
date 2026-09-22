@@ -6,6 +6,9 @@
     padding: 10px;
     border: 1px solid black;
     border-radius: 4px;
-    background-color: darkgrey;
 }
-
+body {
+    
+    background-color: darkgrey;
+    
+}
