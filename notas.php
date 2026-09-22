@@ -10,6 +10,7 @@
     $media = "";
     $resultado = "";
     $cor = "black";
+    $frequencia = "";
 
     if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
@@ -25,17 +26,17 @@
 
         $media = ($nota1 * 2 + $nota2 * 3 + $nota3 * 1 + $nota4 * 1 + $nota5 * 3) / 10;
         
-        if ($media >= 10.0) {
-            $resultado = "APROVADO COM EXCELÊNCIA";
+        if ($media >= 10) {
+            $resultado = "APROVADO COM EXCELÊNCIA.";
             $cor = "blue";
-        } elseif ($media >= 7.0) {
-            $resultado = "APROVADO";
+        } elseif ($media >= 7) {
+            $resultado = "APROVADO.";
             $cor = "green";
-        } elseif ($media >= 5.0) {
-            $resultado = "RECUPERAÇÃO";
+        } elseif ($media >= 5) {
+            $resultado = "RECUPERAÇÃO.";
             $cor = "orange";
         } else {
-            $resultado = "REPROVADO";
+            $resultado = "REPROVADO.";
             $cor = "red";
         }
     }
@@ -62,6 +63,10 @@
         <br><br>
         
         <input type="number" name="idade" placeholder="Digite sua idade" required>
+
+        <br><br>
+
+        <input type="number" name="frequencia" placeholder="Digite a sua frequencia" step="0.1" required>
         
         <br><br>
         
@@ -93,10 +98,11 @@
     <?php if ($_SERVER["REQUEST_METHOD"] === "POST") { ?>
         <div class="card">
             <h1>Resultado</h1>
-            <p>Nome: <?= htmlspecialchars($nome) ?></p>
-            <p>Idade: <?= htmlspecialchars($idade) ?> anos</p>
-            <p>Média Final: <?= number_format($media, 1, ",", ".") ?></p>
-            <h2><span class="<?= $cor ?>"><?= $resultado ?></span></h2>
+            <p>Nome: <?= htmlspecialchars($nome) ?> </p>
+            <p>Idade: <?= htmlspecialchars($idade) ?> anos </p>
+            <p>Frequencia: <?= htmlspecialchars($frequencia)  ?> % </p>
+            <p>Média Final: <?= number_format($media, 1, ",", ".") ?> </p>
+            <h2><span class="<?= $cor ?>"><?= $resultado ?> </span></h2>
         </div>
     <?php } ?>
 
