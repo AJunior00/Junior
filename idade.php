@@ -31,18 +31,18 @@ if ($_SERVER ["REQUEST_METHOD"] == "POST"){
 </head>
 <body>
 
-<div class="input">
 
     <form method="POST">
         
         <input type="text" id="nome" name="nome" placeholder="Digite seu Nome">
         <br>
+        <br>
         
         <input type="number" id="idade"  name="idade" placeholder="Digite sua idade">
         <br>
+        <br>
         <input type="submit" value="Enviar">
     </form>
-</div>
 
     <div class="cardIdade">
 
