@@ -34,15 +34,15 @@ p {
 
 }
 
-.input{
+input{
 
     padding: 10px;
     margin: auto;
     width: 130px;
 }
 
-button{
+.button{
 
-    width: 100px;
+    width: 90px;
     margin: auto;
 }
