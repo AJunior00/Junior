@@ -32,7 +32,7 @@ if ($_SERVER ["REQUEST_METHOD"] == "GET"){
 <body>
 
 
-<form method="POST">
+<form method="GET">
 
     <input type="text" id="nome" name="nome" placeholder="Digite seu Nome">
 

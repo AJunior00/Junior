@@ -49,7 +49,7 @@
 <body>
         <h1>Cadastro do aluno</h1>
 
-    <form method="POST">
+    <form method="GET">
         <input type="text" name="nome" placeholder="Digite seu nome" required>
         <br><br>
         <input type="number" name="idade" placeholder="Digite sua idade" required>
