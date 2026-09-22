@@ -6,7 +6,7 @@ $idade = 0;
 
 $mostrar = "";
 
-if ($_SERVER ["REQUEST_METHOD"] == "GET"){
+if ($_SERVER ["REQUEST_METHOD"] == "POST"){
     
     $nome = $_POST["nome"];
     $idade = $_POST["idade"];
@@ -32,7 +32,7 @@ if ($_SERVER ["REQUEST_METHOD"] == "GET"){
 <body>
 
 
-<form method="GET">
+<form method="POST">
 
     <input type="text" id="nome" name="nome" placeholder="Digite seu Nome">
 

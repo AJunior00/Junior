@@ -10,7 +10,7 @@
     $media = "";
     $resultado = "";
 
-    if ($_SERVER["REQUEST_METHOD"] === "GET") {
+    if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     $nome = $_POST["nome"];
     $idade = $_POST["idade"];
@@ -49,7 +49,7 @@
 <body>
         <h1>Cadastro do aluno</h1>
 
-    <form method="GET">
+    <form method="POST">
         <input type="text" name="nome" placeholder="Digite seu nome" required>
         <br><br>
         <input type="number" name="idade" placeholder="Digite sua idade" required>
