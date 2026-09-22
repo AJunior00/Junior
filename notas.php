@@ -16,6 +16,7 @@
 
     $nome = $_POST["nome"];
     $idade = $_POST["idade"];
+    $frequencia = $_POST["frequencia"];
     $nota1 = (float) $_POST["nota1"];
     $nota2 = (float) $_POST["nota2"];
     $nota3 = (float) $_POST["nota3"];
