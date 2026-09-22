@@ -14,7 +14,9 @@
 
 
     </div>
-
+    
+    <br>
+    
     <a href="idade.php">Verificador de Idade</a>
     <br>
     <br>
