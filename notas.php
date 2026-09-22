@@ -66,7 +66,7 @@
 
         <br><br>
 
-        <input type="number" name="frequencia" placeholder="Digite a sua frequencia" step="0.1" required>
+        <input type="number" name="frequencia" placeholder="Digite a sua frequencia" required>
         
         <br><br>
         
@@ -98,9 +98,9 @@
     <?php if ($_SERVER["REQUEST_METHOD"] === "POST") { ?>
         <div class="card">
             <h1>Resultado</h1>
-            <p>Nome: <?= htmlspecialchars($nome) ?> </p>
-            <p>Idade: <?= htmlspecialchars($idade) ?> anos </p>
-            <p>Frequencia: <?= htmlspecialchars($frequencia)  ?> % </p>
+            <p>Nome: <?= ($nome) ?> </p>
+            <p>Idade: <?= ($idade) ?> anos </p>
+            <p>Frequencia: <?= ($frequencia)  ?> % </p>
             <p>Média Final: <?= number_format($media, 1, ",", ".") ?> </p>
             <h2><span class="<?= $cor ?>"><?= $resultado ?> </span></h2>
         </div>
