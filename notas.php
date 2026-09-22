@@ -1,16 +1,16 @@
 <?php
 
-    $nota1 = "";
-    $nota2 = "";
-    $nota3 = "";
-    $nota4 = "";
-    $nota5 = "";
+    $nota1 = 0;
+    $nota2 = 0;
+    $nota3 = 0;
+    $nota4 = 0;
+    $nota5 = 0;
     $nome = "";
-    $idade = "";
-    $media = "";
-    $resultado = "";
+    $idade = 0;
+    $media = 0;
+    $resultado = 0;
     $cor = "black";
-    $frequencia = "";
+    $frequencia = 0;
 
     if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
@@ -98,9 +98,9 @@
     <?php if ($_SERVER["REQUEST_METHOD"] === "POST") { ?>
         <div class="card">
             <h1>Resultado</h1>
-            <p>Nome: <?= ($nome) ?> </p>
-            <p>Idade: <?= ($idade) ?> anos </p>
-            <p>Frequencia: <?= ($frequencia)  ?> % </p>
+            <p>Nome: <?= $nome ?> </p>
+            <p>Idade: <?= $idade ?> anos </p>
+            <p>Frequencia: <?= $frequencia  ?> % </p>
             <p>Média Final: <?= number_format($media, 1, ",", ".") ?> </p>
             <h2><span class="<?= $cor ?>"><?= $resultado ?> </span></h2>
         </div>
