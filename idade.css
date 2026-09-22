@@ -4,12 +4,8 @@
     margin: 0 auto;
     text-align: center;
     padding: 10px;
-
-}
-
-
-.cardIdade h2{
-
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 4px;
+    background-color: darkgrey;
 }
+
