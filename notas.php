@@ -64,7 +64,7 @@
         <br><br>
         <input type="number" name="nota5" placeholder="Nota 5" step="0.1" required>
         <br><br>
-        <button type="submit">Media</button>
+        <button type="submit">Enviar</button>
     </form>
 
     <?php if ($_SERVER["REQUEST_METHOD"] === "POST") { ?>
@@ -72,7 +72,7 @@
             <h1>Resultado</h1>
             <p>Nome: <?= htmlspecialchars($nome) ?></p>
             <p>Idade: <?= htmlspecialchars($idade) ?> anos</p>
-            <p>Média De Notas: <?= number_format($media, 1, ",", ".") ?></p>
+            <p>Média Final: <?= number_format($media, 1, ",", ".") ?></p>
             <h2><?= $resultado ?></h2>
         </div>
     <?php } ?>
