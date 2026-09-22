@@ -10,7 +10,7 @@
     $media = "";
     $resultado = "";
 
-    if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    if ($_SERVER["REQUEST_METHOD"] === "GET") {
 
     $nome = $_POST["nome"];
     $idade = $_POST["idade"];
@@ -43,7 +43,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notas!</title>
-            <link rel="stylesheet" href="index.css">
+            <link rel="stylesheet" href="notas.css">
 
 </head>
 <body>
@@ -64,7 +64,7 @@
         <br><br>
         <input type="number" name="nota5" placeholder="Nota 5" step="0.1" required>
         <br><br>
-        <button type="submit">Calcular</button>
+        <button type="submit">Media</button>
     </form>
 
     <?php if ($_SERVER["REQUEST_METHOD"] === "POST") { ?>
@@ -72,7 +72,7 @@
             <h1>Resultado</h1>
             <p>Nome: <?= htmlspecialchars($nome) ?></p>
             <p>Idade: <?= htmlspecialchars($idade) ?> anos</p>
-            <p>Média ponderada: <?= number_format($media, 1, ",", ".") ?></p>
+            <p>Média De Notas: <?= number_format($media, 1, ",", ".") ?></p>
             <h2><?= $resultado ?></h2>
         </div>
     <?php } ?>

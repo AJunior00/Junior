@@ -6,7 +6,7 @@ $idade = 0;
 
 $mostrar = "";
 
-if ($_SERVER ["REQUEST_METHOD"] == "POST"){
+if ($_SERVER ["REQUEST_METHOD"] == "GET"){
     
     $nome = $_POST["nome"];
     $idade = $_POST["idade"];
