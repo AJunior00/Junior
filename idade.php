@@ -41,10 +41,8 @@ if ($_SERVER ["REQUEST_METHOD"] == "POST"){
         <input type="number" id="idade"  name="idade" placeholder="Digite sua idade">
         <br>
         <br>
-        <div class="button">
 
             <input type="submit" value="Enviar">
-        </div>
     </form>
 
     <div class="cardIdade">
