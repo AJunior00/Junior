@@ -47,8 +47,8 @@ if ($_SERVER ["REQUEST_METHOD"] == "POST"){
         <h1>Mostrando Nome, Idade e resultado</h1>
         
         
-        <h1>O meu nome é <?=  $nome?> </h1>
-        <h2>Minha idade é <?=  $idade?> </h2>
+        <p>O meu nome é <?=  $nome?> </p>
+        <p>Minha idade é <?=  $idade?> </p>
 
     </div>
         
