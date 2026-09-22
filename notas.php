@@ -9,6 +9,7 @@
     $idade = "";
     $media = "";
     $resultado = "";
+    $cor = "black";
 
     if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
@@ -24,12 +25,18 @@
 
         $media = ($nota1 * 2 + $nota2 * 3 + $nota3 * 1 + $nota4 * 1 + $nota5 * 3) / 10;
         
-        if ($media >= 7.0) {
+        if ($media >= 10.0) {
+            $resultado = "APROVADO COM EXCELÊNCIA";
+            $cor = "blue";
+        } elseif ($media >= 7.0) {
             $resultado = "APROVADO";
-        } elseif ($media >= 5.0){
+            $cor = "green";
+        } elseif ($media >= 5.0) {
             $resultado = "RECUPERAÇÃO";
+            $cor = "orange";
         } else {
             $resultado = "REPROVADO";
+            $cor = "red";
         }
     }
         ?>
