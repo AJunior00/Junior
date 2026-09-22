@@ -43,7 +43,9 @@ input{
 
 .sla {
 
-    width: 200px;
+    width: 250px;
+    margin: auto;
+    text-align: center;
 
 
 }
