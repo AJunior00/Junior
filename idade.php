@@ -12,10 +12,10 @@ if ($_SERVER ["REQUEST_METHOD"] == "POST"){
     $idade = $_POST["idade"];
     
     if ($idade >=18){
-        $mostrar = " De Maior";
+        $mostrar = " de maior";
     }
     else {
-        $mostrar = "De Menor";
+        $mostrar = "de menor";
     }
 }
 ?>
@@ -33,7 +33,6 @@ if ($_SERVER ["REQUEST_METHOD"] == "POST"){
 
 
     <form method="POST">
-        <div class="sla">
 
             <input type="text" id="nome" name="nome" placeholder="Digite seu Nome">
             <br>
@@ -42,8 +41,7 @@ if ($_SERVER ["REQUEST_METHOD"] == "POST"){
             <input type="number" id="idade"  name="idade" placeholder="Digite sua idade">
             <br>
             <br>
-        </div>
-        <input type="submit" value="Enviar">
+            <input type="submit" value="Enviar">
     </form>
 
     <div class="cardIdade">
@@ -54,6 +52,8 @@ if ($_SERVER ["REQUEST_METHOD"] == "POST"){
         
         <p>O meu nome é <?=  $nome?> </p>
         <p>Minha idade é <?=  $idade?> </p>
+        <br>
+        <p>Você é <?= $mostrar?> </p>
 
     </div>
         
