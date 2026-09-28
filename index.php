@@ -21,5 +21,8 @@
     <br>
     <br>
     <a href="notas.php">Verificador de Notas</a>
+    <br>
+    <br>
+    <a href="notas-GET.php">verificador de Notas GET</a>
 </body>
 </html>
