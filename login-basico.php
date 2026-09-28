@@ -41,11 +41,11 @@ if($_SERVER["REQUEST_METHOD"]=== "GET"){
 
         <form action="GET">
 
-        <input type="text" id="usuario" placeholder="Digite seu Usuario" required>
+        <input type="text" name="usuario" id="usuario" placeholder="Digite seu Usuario" required>
         
         <br><br>
         
-        <input type="number" id="senha" placeholder="Digite sua Senha" required>
+        <input type="number" name="senha" id="senha" placeholder="Digite sua Senha" required>
 
         <br><br>
 
@@ -56,7 +56,8 @@ if($_SERVER["REQUEST_METHOD"]=== "GET"){
         <br>
         <br>
 
-        <?php  if ($_SERVER["REQUEST_METHOD"] === "GET") { ?>
+        <?php if ($_SERVER["REQUEST_METHOD"] === "GET" && isset($_GET["usuario"])) { ?>
+
 
 
             <h2><?=$resultado ?></h2>
