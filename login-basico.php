@@ -60,6 +60,8 @@ if($_SERVER["rEQUEST_METHOD"]=== "POST"){
 
             <h1><?=$resultado ?></h1>
 
+            <?php } ?>
+
 </body>
 </html>
 
