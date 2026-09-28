@@ -5,7 +5,7 @@ $senha = 1234;
 $resultado = "";
 $erro = "";
 
-if($_SERVER["REQUEST_METHOD"]=== "GET"){
+if($_SERVER["REQUEST_METHOD"]=== "POST"){
 
     $usuario = $_GET["usuario"];
     $senha = $_GET["senha"];
@@ -39,7 +39,7 @@ if($_SERVER["REQUEST_METHOD"]=== "GET"){
     <h1>Faça seu login</h1>
 
 
-        <form action="GET">
+        <form action="POST">
 
         <input type="text" name="usuario" id="usuario" placeholder="Digite seu Usuario" required>
         
@@ -56,13 +56,13 @@ if($_SERVER["REQUEST_METHOD"]=== "GET"){
         <br>
         <br>
 
-        <?php if ($_SERVER["REQUEST_METHOD"] === "GET" && isset($_GET["usuario"])) { ?>
-
-
+        <?php if ($_SERVER["REQUEST_METHOD"] === "POST") /*&& isset($_GET["usuario"])) { ?>
+*/
+?>
 
             <h2><?=$resultado ?></h2>
             <h2><?=$erro ?> </h2>
-            <?php } ?>
+            <?php ?>
 
 </body>
 </html>
