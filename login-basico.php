@@ -5,7 +5,7 @@ $senha = 1234;
 $resultado = "";
 $erro = "";
 
-if($_SERVER["rEQUEST_METHOD"]=== "POST"){
+if($_SERVER["REQUEST_METHOD"]=== "GET"){
 
     $usuario = $_GET["usuario"];
     $senha = $_GET["senha"];
