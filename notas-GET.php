@@ -51,7 +51,7 @@
 
     <title>Notas!</title>
 
-    <link rel="stylesheet" href="notas.css">
+    <link rel="stylesheet" href="notas-GET.css">
 </head>
 
 <body>

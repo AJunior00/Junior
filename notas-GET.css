@@ -1,0 +1,32 @@
+body{
+
+    background-color: papayawhip;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+    margin:55px auto;
+    max-width: 400px;
+    
+   }
+   
+   .card {
+   
+       background-color: rgb(255, 255, 255);
+       border: 1px solid black;
+       border-radius: 5px;
+   }
+   
+   button{
+   
+       background-color: rgb(117, 117, 117);
+       color: rgb(255, 255, 255);
+       width: 80px;
+       padding: 6px;
+   
+   }
+   
+   p{
+   
+       color: black;
+   }
