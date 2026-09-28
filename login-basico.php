@@ -52,8 +52,13 @@ if($_SERVER["rEQUEST_METHOD"]=== "POST"){
 
         </form>
 
+        <br>
+        <br>
 
-        
+        <?php  if ($_SERVER["REQUEST_METHOD"] === "GET") { ?>
+
+
+            <h1><?=$resultado ?></h1>
 
 </body>
 </html>
