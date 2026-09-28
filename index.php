@@ -23,6 +23,9 @@
     <a href="notas.php">Verificador de Notas</a>
     <br>
     <br>
-    <a href="notas-GET.php">verificador de Notas GET</a>
+    <a href="notas-GET.php">Verificador de Notas GET</a>
+    <br>
+    <br>
+    <a href="login-basico.php">Faça seu login aqui</a>
 </body>
 </html>
