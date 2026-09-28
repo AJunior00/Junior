@@ -3,6 +3,7 @@
 $usuario = "";
 $senha = 1234;
 $resultado = "";
+$erro = "";
 
 if($_SERVER["rEQUEST_METHOD"]=== "POST"){
 
@@ -13,7 +14,7 @@ if($_SERVER["rEQUEST_METHOD"]=== "POST"){
     $resultado = "Login efetuado com Sucesso";
     }
     else {
-        $resultado = "Login incorreto, tente novamente";
+        $erro = "Login incorreto, tente novamente";
     }
 
 }
@@ -58,8 +59,8 @@ if($_SERVER["rEQUEST_METHOD"]=== "POST"){
         <?php  if ($_SERVER["REQUEST_METHOD"] === "GET") { ?>
 
 
-            <h1><?=$resultado ?></h1>
-
+            <h2><?=$resultado ?></h2>
+            <h2><?=$erro ?> </h2>
             <?php } ?>
 
 </body>
