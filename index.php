@@ -1,3 +1,15 @@
+<?php 
+    require "conexao.php";
+    echo "Meu sistema está conectado!";
+
+
+    $sql = "CRETE TABLE IF NOT EXISTS teste (
+    id INT AUTO_INCREMENT PRIMaRY KEY, 
+    nome VARCHAR (100), 
+    idade INT
+    )";
+    ?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
