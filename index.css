@@ -14,16 +14,16 @@ body{
     max-width: 400px;
     padding: 20px;
     margin: 20px auto;
-    background-color: aliceblue;
+    background-color: rgb(243, 243, 243);
     
 }
 
 .lol {
     
-    background-color: rgb(243, 243, 243);
+    background-color: aliceblue;
     border: 1px transparent;
     border-radius: 3px;
- 
+    
     padding: 7px;
 }
 a {
