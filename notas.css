@@ -1,8 +1,6 @@
 body{
 
  background-color: rgb(146, 146, 146);
- border: 1px solid black;
- border-radius: 4px;
  padding: 20px;
  text-align: center;
  margin:55px auto;
@@ -11,6 +9,8 @@ body{
 }
 .cor {
     background-color: rgb(221, 236, 248);
+    border: 1px solid black;
+    border-radius: 4px;
 }
 .card {
 
