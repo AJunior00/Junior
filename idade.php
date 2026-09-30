@@ -30,10 +30,11 @@ if ($_SERVER ["REQUEST_METHOD"] == "POST"){
     <title>bla bla sla</title>
 </head>
 <body>
+    <div class="">
 
-
-    <form method="POST">
-
+        
+        <form method="POST">
+            
             <input type="text" id="nome" name="nome" placeholder="Digite seu Nome">
             <br>
             <br>
@@ -42,22 +43,23 @@ if ($_SERVER ["REQUEST_METHOD"] == "POST"){
             <br>
             <br>
             <div class="dv">
-
+                
                 <button type="submit">enviar</button>
             </div>
-    </form>
-
-    <div class="cardIdade">
-
+        </form>
         
-        <h1>Mostrando Nome e Idade</h1>
-        <br>
-        
-        <p>O meu nome é <?=  $nome?> </p>
-        <p>Minha idade é <?=  $idade?> </p>
-        <br>
-        <p>Você é <?= $mostrar?> </p>
-
+        <div class="cardIdade">
+            
+            
+            <h1>Mostrando Nome e Idade</h1>
+            <br>
+            
+            <p>O meu nome é <?=  $nome?> </p>
+            <p>Minha idade é <?=  $idade?> </p>
+            <br>
+            <p>Você é <?= $mostrar?> </p>
+            
+        </div>
     </div>
         
     </body>
