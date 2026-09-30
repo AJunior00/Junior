@@ -26,6 +26,7 @@
     <title>Home</title>
 </head>
 <body>
+    <div class="lol">
     <div class="card">
 
         <h1>Sobre o Aluno</h1>
@@ -35,7 +36,6 @@
     
     <br>
     
-<div class="lol">
 
     <a href="idade.php">Verificador de Idade</a>
     <br>
