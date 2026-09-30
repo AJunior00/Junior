@@ -1,4 +1,4 @@
-.card {
+.card H1 {
     
     width: 135px;
     margin: 0 auto;
@@ -6,6 +6,7 @@
     border: 1px solid black;
     border-radius: 10px;
     padding: 5px;
+    background-color: antiquewhite;
 }
 
 body{
@@ -17,8 +18,4 @@ body{
     padding: 20px;
     margin: 20px auto;
     background-color: papayawhip;
-}
-.card h1{
-
-    background-color: rgb(128, 128, 128);
 }
