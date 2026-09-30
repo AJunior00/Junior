@@ -1,6 +1,6 @@
 .card H1 {
     
-    width: 160px;
+    width: 250px;
     margin: 0 auto;
     text-align: center;
     padding: 5px;
@@ -36,7 +36,6 @@ a {
     border: transparent;
     border-radius: 5px ;
     padding: 3px;
-    background-color: rgba(253, 210, 210, 0.952);
     color: rgb(240, 26, 240);
 }
 
