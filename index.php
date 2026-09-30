@@ -44,5 +44,8 @@
     <br>
     <br>
     <a href="login-basico.php">Faça seu login aqui</a>
+    <br>
+    <br>
+    <a href="jogos.php">Cadastro de jogos</a>
 </body>
 </html>
