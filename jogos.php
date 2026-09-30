@@ -1,36 +1,31 @@
-<?php 
+<?php
+require "conexao.php";
 
-    require "conexao.php";
-    
-    $pdo->exec("CREATE TABLE IF NOT EXISTS jogos (
-        id  INT PRIMARY KEY e AUTO_INCREMENT,
-        nome  VARCHAR(100),
-        genero  VARCHAR(50),
-        nota  INT,
+$pdo->exec("CREATE TABLE IF NOT EXISTS jogos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100),
+    genero VARCHAR(50),
+    nota INT,
     ano_lancamento INT
-    )");
+)");
 
+$mensagem = "";
 
-    $mensagem = "";
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    $nome = $_POST["nome"];
+    $genero = $_POST["genero"];
+    $nota = (int) $_POST["nota"];
 
-    if ($_SERVER["REQUEST-METHOD"] == "POST"){
+    $nome = $pdo->quote($nome);
+    $genero = $pdo->quote($genero);
 
-        $sql = "INSERT INTO jogos (nome, genero, nota)";
+    $sql = "INSERT INTO jogos (nome, genero, nota)
+            VALUES ($nome, $genero, $nota)";
 
-        $pdo->exec($sql);
-
-        echo "jogo cadastrado com sucesso";
-
-    }
-
-    $buscar = "SELECT * FROM jogos";
-
-    $stmt = $pdo->query($buscar);
-
-    $jogos = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    
-    ?>
-
+    $pdo->exec($sql);
+    $mensagem = "Jogo cadastrado com sucesso!";
+}
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -51,6 +46,9 @@
 
         <label for="nota">Nota</label>
         <input id="nota" type="number" name="nota" min="0" max="10" required>
+
+        <label for="nota">ano de lançamento</label>
+        <input id="nota" type="number" name="nota" required>
 
         <button type="submit">Cadastrar</button>
     </form>
