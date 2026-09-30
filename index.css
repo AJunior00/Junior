@@ -16,12 +16,15 @@ body{
     max-width: 400px;
     padding: 20px;
     margin: 20px auto;
-    border: 1px solid;
-    border-radius: 3px;
-    background-color: aliceblue;
     
 }
 
+.lol {
+    
+    background-color: aliceblue;
+    border: 1px solid;
+    border-radius: 3px;
+}
 a {
     
     width: 200px;

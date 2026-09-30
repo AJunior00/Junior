@@ -35,19 +35,21 @@
     
     <br>
     
+<div class="lol">
 
-        <a href="idade.php">Verificador de Idade</a>
-        <br>
-        <br>
-        <a href="notas.php">Verificador de Notas</a>
-        <br>
-        <br>
-        <a href="notas-GET.php">Verificador de Notas GET</a>
-        <br>
-        <br>
-        <a href="login-basico.php">Faça seu login aqui</a>
-        <br>
-        <br>
-        <a href="jogos.php">Cadastro de jogos</a>
-    </body>
+    <a href="idade.php">Verificador de Idade</a>
+    <br>
+    <br>
+    <a href="notas.php">Verificador de Notas</a>
+    <br>
+    <br>
+    <a href="notas-GET.php">Verificador de Notas GET</a>
+    <br>
+    <br>
+    <a href="login-basico.php">Faça seu login aqui</a>
+    <br>
+    <br>
+    <a href="jogos.php">Cadastro de jogos</a>
+</div>
+</body>
 </html>
