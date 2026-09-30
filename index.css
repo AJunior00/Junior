@@ -20,9 +20,10 @@ body{
 
 .lol {
     
-    background-color: rgb(231, 229, 229);
+    background-color: rgb(243, 243, 243);
     border: 1px transparent;
     border-radius: 3px;
+ 
     padding: 7px;
 }
 a {
