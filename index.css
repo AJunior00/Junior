@@ -6,7 +6,8 @@
     border: 1px solid black;
     border-radius: 10px;
     padding: 5px;
-    background-color: antiquewhite;
+    background-color: rgb(35, 228, 218);
+    color: aliceblue;
 }
 
 body{
@@ -17,17 +18,17 @@ body{
     max-width: 400px;
     padding: 20px;
     margin: 20px auto;
-    background-color: papayawhip;
+    background-color: rgb(255, 251, 245);
 }
 
 a {
 
-    width: 150px;
+    width: 200px;
     margin: 0 auto;
     text-align: center;
     border: 1px ;
-    border-radius: 10px ;
-    padding: 5px;
+    border-radius: 5px ;
+    padding: 3px;
     background-color: rgba(67, 167, 224, 0.952);
     color: rgb(255, 255, 255);
 }
