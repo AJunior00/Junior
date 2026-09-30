@@ -1,25 +1,27 @@
 body{
 
-    background-color: papayawhip;
-    border: 1px solid black;
-    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
     margin:55px auto;
     max-width: 400px;
     
    }
-   
+   .cor {
+       background-color: rgb(221, 236, 248);
+       border: 1px solid black;
+       border-radius: 4px;
+   }
    .card {
    
-       background-color: rgb(255, 255, 255);
+       background-color: rgb(221, 236, 248);
        border: 1px solid black;
        border-radius: 5px;
    }
    
    button{
    
-       background-color: rgb(117, 117, 117);
+       background-color: rgb(0, 0, 0);
        color: rgb(255, 255, 255);
        width: 80px;
        padding: 6px;
@@ -30,5 +32,28 @@ body{
    
        color: black;
    }
-
    
+   .blue {
+       color: blue;
+   }
+   
+   .green {
+       color: green;
+   }
+   
+   .orange {
+       color: orange;
+   }
+   
+   .red {
+       color: red;
+   }
+   
+   a {
+       background-color: black;
+       color: aliceblue;
+       text-align: left;
+       width: 80px;
+       padding: 5px;
+   
+   }

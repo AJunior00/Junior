@@ -55,6 +55,7 @@
 </head>
 
 <body>
+    <div class="cor">
 
     <h1>Leitor de notas</h1>
 
@@ -96,6 +97,9 @@
 
     </form>
 
+
+
+    </div>
     <br>
 
     <?php if ($_SERVER["REQUEST_METHOD"] === "GET" && isset($_GET["nome"])) { ?>
