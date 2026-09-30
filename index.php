@@ -1,6 +1,6 @@
 <?php 
     require "conexao.php";
-    echo "\nMeu sistema está conectado!"; 
+    echo "<br>Meu sistema está conectado!"; 
 
 
     $sql = "CREATE TABLE IF NOT EXISTS teste (
@@ -12,7 +12,7 @@
     $pdo->exec($sql);
 
 
-    echo "\ntabela criada com sucesso" 
+    echo "<br>tabela criada com sucesso";
     ?>
 
 <!DOCTYPE html>
