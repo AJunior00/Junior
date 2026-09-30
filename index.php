@@ -1,6 +1,6 @@
 <?php 
     require "conexao.php";
-    echo "<br>Meu sistema está conectado!"; 
+    echo "<br>Meu sistema está conectado!<br>"; 
 
 
     $sql = "CREATE TABLE IF NOT EXISTS teste (
@@ -12,7 +12,8 @@
     $pdo->exec($sql);
 
 
-    echo "<br>tabela criada com sucesso";
+    echo "<br>tabela criada com sucesso<br>";
+    
     ?>
 
 <!DOCTYPE html>
@@ -33,7 +34,7 @@
     </div>
     
     <br>
-    <div class="body2">
+    
 
         <a href="idade.php">Verificador de Idade</a>
         <br>
@@ -48,6 +49,5 @@
         <br>
         <br>
         <a href="jogos.php">Cadastro de jogos</a>
-    </div>
     </body>
 </html>

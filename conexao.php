@@ -21,4 +21,3 @@ try{
     echo "Erro ao conectar:".$erro->getMessage();
 }
 
-/*sla*/
