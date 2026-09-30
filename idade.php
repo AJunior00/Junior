@@ -43,7 +43,7 @@ if ($_SERVER ["REQUEST_METHOD"] == "POST"){
             <br>
             <div class="dv">
 
-                <input type="submit" value="Enviar">
+                <button type="submit">enviar</button>
             </div>
     </form>
 
