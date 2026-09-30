@@ -27,9 +27,11 @@
 </head>
 <body>
     <div class="lol">
+
     <div class="card">
 
-        <h1>Sobre o Aluno</h1>
+        <h1>Bem-vindo!</h1>
+        <p>Escolha uma pagina:</p>
 
 
     </div>
@@ -37,6 +39,9 @@
     <br>
     
 
+    <a href="login-basico.php">Faça seu login aqui</a>
+    <br>
+    <br>
     <a href="idade.php">Verificador de Idade</a>
     <br>
     <br>
@@ -46,10 +51,8 @@
     <a href="notas-GET.php">Verificador de Notas GET</a>
     <br>
     <br>
-    <a href="login-basico.php">Faça seu login aqui</a>
-    <br>
-    <br>
     <a href="jogos.php">Cadastro de jogos</a>
+    
 </div>
 </body>
 </html>

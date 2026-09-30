@@ -3,11 +3,9 @@
     width: 135px;
     margin: 0 auto;
     text-align: center;
-    border: 1px solid black;
-    border-radius: 10px;
     padding: 5px;
-    background-color: rgb(35, 228, 218);
-    color: aliceblue;
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 
 body{
@@ -23,7 +21,7 @@ body{
 .lol {
     
     background-color: aliceblue;
-    border: 1px solid;
+    border: 1px transparent;
     border-radius: 3px;
     padding: 7px;
 }
@@ -32,10 +30,10 @@ a {
     width: 200px;
     margin: 0 auto;
     text-align: center;
-    border: 1px ;
+    border: transparent;
     border-radius: 5px ;
     padding: 3px;
-    background-color: rgba(67, 167, 224, 0.952);
-    color: rgb(255, 255, 255);
+    background-color: rgba(253, 253, 253, 0.952);
+    color: rgb(240, 26, 240);
 }
 
