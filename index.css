@@ -9,8 +9,8 @@
 }
 
 body{
-
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    font-family: arial, sans-serif;
     text-align: center;
     max-width: 400px;
     padding: 20px;
@@ -29,7 +29,6 @@ body{
     border: 1px solid #ccc6c6;
 }
 a {
-    
     width: 200px;
     margin: 0 auto;
     text-align: center;
