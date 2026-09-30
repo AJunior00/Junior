@@ -35,6 +35,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <title>Cadastro de Jogos</title>
 </head>
 <body class="pagina-notas">
+
+
+<p><a href="index.php">Voltar ao início</a></p>
+<br><br><br>
+
+
     <h1>Cadastrar jogo</h1>
 
     <form method="post" class="formulario-notas">
@@ -57,6 +63,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <p><?php echo htmlspecialchars($mensagem, ENT_QUOTES, "UTF-8"); ?></p>
     <?php } ?>
 
-    <p><a href="index.php">Voltar ao início</a></p>
+   
 </body>
 </html>

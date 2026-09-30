@@ -36,6 +36,8 @@ if($_SERVER["REQUEST_METHOD"]=== "POST"){
 </head>
 <body>
 
+<p><a href="index.php">Voltar ao início</a></p>
+<br><br><br>
     <h1>Faça seu login</h1>
 
 
