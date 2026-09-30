@@ -1,0 +1,106 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap');
+
+:root {
+    color-scheme: light;
+    font-family: 'DM Sans', sans-serif;
+    color: #20231f;
+    background: #f4f5f1;
+    font-synthesis: none;
+}
+
+* { box-sizing: border-box; }
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 24px;
+    display: grid;
+    place-items: center;
+    background: radial-gradient(ellipse at 50% 0%, #e5ebe2 0, #f4f5f1 52%);
+}
+
+.login-card {
+    width: min(100%, 420px);
+    padding: 32px;
+    background: #fff;
+    border: 1px solid #e8ebe5;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgb(35 48 34 / 9%);
+}
+
+.back-link {
+    color: #737b70;
+    font-size: 13px;
+    text-decoration: none;
+    transition: color 160ms ease;
+}
+.back-link:hover { color: #426b48; }
+
+.login-heading { margin: 42px 0 30px; }
+.eyebrow {
+    color: #527b58;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .14em;
+}
+
+h1 {
+    margin: 10px 0 8px;
+    font-family: 'Manrope', sans-serif;
+    font-size: clamp(28px, 7vw, 34px);
+    letter-spacing: -.045em;
+}
+.login-heading p { margin: 0; color: #858b81; font-size: 14px; }
+
+form { display: grid; gap: 10px; }
+label { margin-top: 8px; color: #454b43; font-size: 13px; font-weight: 600; }
+input {
+    width: 100%;
+    height: 48px;
+    padding: 0 14px;
+    color: #20231f;
+    background: #fbfcfa;
+    border: 1px solid #e3e7df;
+    border-radius: 10px;
+    font: inherit;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+input::placeholder { color: #a5aaa1; }
+input:focus { border-color: #668b69; box-shadow: 0 0 0 3px rgb(102 139 105 / 14%); }
+
+button {
+    height: 49px;
+    margin-top: 12px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    background: #355d3b;
+    border: 0;
+    border-radius: 10px;
+    font: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 160ms ease, transform 160ms ease;
+}
+button:hover { background: #294b2f; }
+button:active { transform: translateY(1px); }
+button span { font-size: 18px; }
+
+.message {
+    margin: 18px 0 0;
+    padding: 12px 14px;
+    border-radius: 9px;
+    font-size: 13px;
+}
+.success { color: #2f6038; background: #edf6ed; }
+.error { color: #a23e3e; background: #fbefed; }
+
+@media (max-width: 480px) {
+    body { padding: 16px; }
+    .login-card { padding: 26px 22px; border-radius: 16px; }
+}
