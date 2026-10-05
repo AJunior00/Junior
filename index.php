@@ -28,17 +28,13 @@
 <body>
     <div class="lol">
 
-    <div class="card">
-
+    <div class="card">    
+        <br>
+        
         <h1>Bem-vindo!</h1>
         <p>Escolha uma pagina:</p>
-
-
     </div>
     
-    <br>
-    
-
     <a href="login-basico.php">Faça seu login aqui</a>
     <br>
     <br>
@@ -53,6 +49,24 @@
     <br>
     <a href="jogos.php">Cadastro de jogos</a>
     
+    <header>
+    
+        <nav>
+
+        <h2 class="logo">Meu Portifólio</h2>
+    
+        <ul class="manu">
+
+            <li> <a href="#inicio">Inicio</a></li>
+            <li> <a href="#sobre">Sobre</a></li>
+            <li> <a href="#habilidades">Habilidades</a></li>
+            <li> <a href="#projetos">Projetos</a></li>
+            <li> <a href="#contato">Contato</a></li> 
+        </ul>
+
+    </nav>
+</header>
+
 </div>
 </body>
 </html>

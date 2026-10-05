@@ -1,13 +1,15 @@
 <?php
-require "conexao.php";
+require __DIR__. "/../conexao.php";
 
-$pdo->exec("CREATE TABLE IF NOT EXISTS jogos (
+$sql = "CREATE TABLE IF NOT EXISTS jogos (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100),
     genero VARCHAR(50),
     nota INT,
     ano_lancamento INT
-)");
+)";
+
+$pdo->exec ($sql);
 
 $mensagem = "";
 
@@ -63,6 +65,21 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <p><?php echo htmlspecialchars($mensagem, ENT_QUOTES, "UTF-8"); ?></p>
     <?php } ?>
 
-   
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Gênero</th>
+                <th>Nota</th>
+                <th>Ano de Lançamento</th>
+            </tr>
+        </thead>
+        
+        <tr>
+                    <td colspan="5">Nenhum jogo cadastrado.</td>
+                </tr>
+            
+        </tbody>
 </body>
 </html>
