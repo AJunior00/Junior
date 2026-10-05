@@ -1,4 +1,6 @@
 ﻿<?php
+require __DIR__. "/../conexao.php";
+
 $usuario = "";
 $senha = "";
 $resultado = "";

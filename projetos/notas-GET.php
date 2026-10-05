@@ -1,5 +1,7 @@
 <?php
 
+require __DIR__. "/../conexao.php";
+
     $nota1 = 0;
     $nota2 = 0;
     $nota3 = 0;

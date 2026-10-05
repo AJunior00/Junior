@@ -66,7 +66,45 @@
 
     </nav>
 </header>
+    <main>
+        <section id="inicio" class="inicio">
+            <div class="inicio-conteudo">
+                <p class="saudacao"> Olá! Eu sou</p>
+                <h1>Junior</h1>
+                <h2>Desenvolvedor em Formação</h2>
+                <p>
+                    Como estudante de Desenvolvimento de Sistemas, 
+                    busco aprimorar minhas competências e me especializar
+                    em áreas estratégicas do mercado de tecnologia.
+                </p>
+            </div>
+        </section>
+        <section id="habilidades" class="secao secao-destaque">
+            <h2 class="titulo-secao">Minhas habilidades</h2>
+            <p class="subtitulo-secao">
+                algumas tecnologias que estou estudando:
+            </p>
+            <div class="lista-habilidades">
+                <div class="habilidades">
+                    HTML
 
+                </div>
+                <div class="habilidades">
+                    CSS
+
+                </div>
+                <div class="habilidades">
+                    PHP
+
+                </div>
+
+            </div>
+
+        </section>
+        <section id="projetos" class="secao">
+
+        </section>
+    </main>
 </div>
 </body>
 </html>
