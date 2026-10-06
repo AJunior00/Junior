@@ -1,185 +1,188 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/index.css">
-
-    <title>Home</title>
+    <link rel="stylesheet" href="css/index.css">
+    <title>Homee</title>
 </head>
 <body>
-    <!-- <div class="lol">
+    <!-- <br><br><a href="projetos/idade.php">Verificador de idade</a><br><br>
+    <a href="projetos/notas.php">Verificador de notas</a><br><br>
+    <a href="projetos/notas-desafio.php">Verificador de notas (desafio)</a><br><br>
+    <a href="projetos/login-basico.php">Login básico</a><br><br>
+    <a href="projetos/jogos.php">Tabela de jogos</a><br><br> -->
 
-    <div class="card">    
-        <br>
-        
-        <h1>Bem-vindo!</h1>
-        <p>Escolha uma pagina:</p>
-    </div>
-    
-    <a href="login-basico.php">Faça seu login aqui</a>
-    <br>
-    <br>
-    <a href="idade.php">Verificador de Idade</a>
-    <br>
-    <br>
-    <a href="notas.php">Verificador de Notas</a>
-    <br>
-    <br>
-    <a href="notas-GET.php">Verificador de Notas GET</a>
-    <br>
-    <br>
-    <a href="jogos.php">Cadastro de jogos</a>
-     -->
     <header>
-    
-        <nav class="navbar">
+            <nav class="navbar">
 
-        <h2 class="logo">Meu Portifólio</h2>
-    
-        <ul class="manu">
+                <h2 class="logo">Meu Portifólio</h2>
 
-            <li> <a href="#inicio">Inicio</a></li>
-            <li> <a href="#sobre">Sobre</a></li>
-            <li> <a href="#habilidades">Habilidades</a></li>
-            <li> <a href="#projetos">Projetos</a></li>
-            <li> <a href="#contato">Contato</a></li> 
-        </ul>
-
-        </nav>
+                <ul class="menu">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
     </header>
+
     <main>
         <section id="inicio" class="inicio">
             <div class="inicio-conteudo">
-                <p class="saudacao"> Olá! Eu sou</p>
+                <p class="saudacao">Olá! Eu sou</p>
                 <h1>Junior</h1>
-                <h2>Desenvolvedor em Formação</h2>
-                <p>
-                    Como estudante de Desenvolvimento de Sistemas, 
-                    busco aprimorar minhas competências e me especializar
-                    em áreas estratégicas do mercado de tecnologia.
+                <h2>Desenvolvedor em formação</h2>
+                <p>Sou estudante de desenvolvimento de sistemas,
+                    em busca de oportunidades para aplicar
+                    meu conhecimentos em projetos reais.
                 </p>
-                <a href="#projetos" class="botao"></a>
-                ver meus projetos
+                <a href="#projetos" class="botao">Ver meus projetos</a>
             </div>
         </section>
+
         <section id="sobre" class="secao">
 
-            <h2 class="titulo-secao">sobre mim</h2>
-            <div class="sobre-conteudo">
-                <div class="foto">
+        <h2 class="titulo-secao">Sobre mim</h2>
+        <div class="sobre-conteudo">
+            <div class="foto">
                     JS
-
-                </div>
-
-                <div class="sobre-texto">
-                    <h3>Quem sou eu?</h3>
-                    <p>Meu nome é junior e sou estudante
-                        de desenvolvimento de sistemas.
-                    </p>
-                    <p>
-                        Atualmente estou estudando desenvolvimento de sistemas web, programação 
-                        e criação de sistemas. Este portifólio reúne alguns dos projetos desenvolvidos por mim.
-                    </p>
-                    <p>
-                        Meu objetivo é continuar evoluindo como desenvolvedor e aprender novas tecnologias.
-                    </p>
-                </div>
             </div>
+            <div class="sobre-texto">
+                <h3>Quem sou eu?</h3>
+                <p>
+                    Meu nome é Junior e sou estudante
+                    de desenvolvimento de sistemas.
+                </p>
+                <p>
+                    Atualmente estou entudando desenvolvimento de sistemas web, programação
+                    e criação de sistmas. Este portifólio reúne alguns dos projetos desenvolvidos por mim.
+                </p>
+                <p>
+                        Meu objetivo é continuar evoluindo como
+                        desenvolvedor e aprender novas tecnologias.
+                </p>
+            </div>
+        </div>
         </section>
+
         <section id="habilidades" class="secao secao-destaque">
             <h2 class="titulo-secao">Minhas habilidades</h2>
             <p class="subtitulo-secao">
-                algumas tecnologias que estou estudando:
+                Algumas tecnologias que estou estudando
             </p>
 
             <div class="lista-habilidades">
-
-                <div class="habilidades">HTML</div>
-                <div class="habilidades">CSS</div>
-                <div class="habilidades">PHP</div>
-
+                <div class="habilidade">HTML</div>
+                <div class="habilidade">CSS</div>
+                <div class="habilidade">PHP</div>
             </div>
 
         </section>
+
         <section id="projetos" class="secao">
-
-        <h2 class="titulo-secao">Meus projetos</h2>
-        <p class="subtitulo-secao">
-            alguns projetos desenvolvidos durante aulas
-        </p>
-
-        <!-- projeto 1 -->
-        <div class="projetos-container">
-                <div projetos-card>
-                    <div class="projetos-numero">01</div>
-                    <h3>Verificacao de idade</h3>
+            <h2 class="titulo-secao">Meus projetos</h2>
+            <p class="subtitulo-secao">
+                Alguns projetos desenvolvidos durante aulas.
+            </p>
+            <div class="projetos-container">
+               
+                <div class="projeto-card">
+                    <div class="projeto-numero">01</div>
+                    <h3>Verificação de idade</h3>
                     <p>Sistema desenvolvido para praticar
-                        formularios e manioulação de dados 
+                        formulários e manipulação de dados.
                     </p>
                     <div class="tecnologias">
                         <span>HTML</span>
                         <span>CSS</span>
                         <span>PHP</span>
                     </div>
-                    <a href="projeto/idade.php">
-                        ver projeto ➡
+                    <a href="projetos/idade.php" class="link-projeto">
+                        Ver projeto ➡
                     </a>
-                    
-                    <!-- projeto 2 -->
-                    
-                    <div projeto-card>
-                        <div class="projetos-numero">02</div>
-                        <h3>Verificacao de Notas</h3>
-                        <p>Sistema desenvolvido para praticar
-                            formularios e manioulação de dados 
-                        </p>
-                        <div class="tecnologias">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>PHP</span>
-                        </div>
-                        <a href="projeto/notas.php">
-                            ver projeto ➡
-                        </a>
-                        
-                        <!-- projeto 3 -->
-
-                        <div projeto-card>
-                               <div class="projetos-numero">03</div>
-                                <h3>login basico </h3>
-                                <p>Sistema desenvolvido para praticar
-                                    formularios e manioulação de dados 
-                                </p>
-                                <div class="tecnologias">
-                                    <span>HTML</span>
-                                    <span>CSS</span>
-                                    <span>PHP</span>
-                                </div>
-                                <a href="projeto/login-basico.php">
-                                    ver projeto ➡
-                                </a>
-                            </div>
-                        <!-- Projeto 4 -->
-                            <div projeto-card>
-                               <div class="projetos-numero">03</div>
-                                <h3>Cadastro de jogos</h3>
-                                <p>Sistema desenvolvido para praticar
-                                    formularios e manioulação de dados 
-                                </p>
-                                <div class="tecnologias">
-                                    <span>HTML</span>
-                                    <span>CSS</span>
-                                    <span>PHP</span>
-                                </div>
-                                <a href="projeto/jogos.php">
-                                    ver projeto ➡
-                                </a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-                </section>
-            </main>
-    </body>
-    </html>
+
+                <div class="projeto-card">
+                    <div class="projeto-numero">02</div>
+                    <h3>Verificador de notas</h3>
+                    <p>Aplicação simples, criada para praticar manipulação de formulários, cálculos
+                        e validação de dados.
+                    </p>
+                    <div class="tecnologias">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>PHP</span>
+                    </div>
+                    <a href="projetos/notas.php" class="link-projeto">
+                        Ver projeto ➡
+                    </a>
+                </div>
+
+                <div class="projeto-card">
+                    <div class="projeto-numero">03</div>
+                    <h3>Login básico</h3>
+                    <p>Sistema desenvolvido para praticar
+                        formulários e manipulação de dados.
+                    </p>
+                    <div class="tecnologias">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>PHP</span>
+                    </div>
+                    <a href="projetos/login-basico.php" class="link-projeto">
+                        Ver projeto ➡
+                    </a>
+                </div>
+
+                <div class="projeto-card">
+                    <div class="projeto-numero">04</div>
+                    <h3>Cadastro de jogos</h3>
+                    <p>Conexão com banco de dados e criação de
+                        tabelas com sql.
+                    </p>
+                    <div class="tecnologias">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>PHP</span>
+                    </div>
+                    <a href="projetos/jogos.php" class="link-projeto">
+                        Ver projeto ➡
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contato" class="secao secao-destaque">
+            <h2 class="titulo-secao">Contato</h2>
+            <p class="subtitulo-secao">Quer entrar em contato comigo?</p>
+
+            <div class="contato-container">
+                <div class="contato-item">
+                    <h3>Whatsaap</h3>
+                    <p>+55 41 996573850</p>
+                </div>
+                <div class="contato-item">
+                    <h3>Github</h3>
+                    <p>github.com/AJunior00</p>
+                </div>
+                <div class="contato-item">
+                    <h3>Gmail</h3>
+                    <p>chavesjr221@gmail.com</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+
+        <p>
+            Desenvolvido por <a href="https://almir315.devlook.xyz">Almir Junior</a> - 2026
+        </p>
+
+    </footer>
+</body>
+</html>
