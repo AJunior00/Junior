@@ -133,5 +133,20 @@ header {
     text-align: center;
     color: #666666;
     margin-bottom: 40px;
-    
+
+}
+
+.sobre-conteudo {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    min-width: 200px;
+    border-radius: 50%;
+    background-color: #2563eb;
 }
