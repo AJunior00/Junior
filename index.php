@@ -26,7 +26,7 @@
     <title>Home</title>
 </head>
 <body>
-    <div class="lol">
+    <!-- <div class="lol">
 
     <div class="card">    
         <br>
@@ -48,7 +48,7 @@
     <br>
     <br>
     <a href="jogos.php">Cadastro de jogos</a>
-    
+     -->
     <header>
     
         <nav>
