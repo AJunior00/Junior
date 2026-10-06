@@ -51,7 +51,7 @@
      -->
     <header>
     
-        <nav>
+        <nav class="navbar">
 
         <h2 class="logo">Meu Portifólio</h2>
     
@@ -64,8 +64,8 @@
             <li> <a href="#contato">Contato</a></li> 
         </ul>
 
-    </nav>
-</header>
+        </nav>
+    </header>
     <main>
         <section id="inicio" class="inicio">
             <div class="inicio-conteudo">
@@ -78,19 +78,31 @@
                     em áreas estratégicas do mercado de tecnologia.
                 </p>
                 <a href="#projetos" class="botao"></a>
+                ver meus projetos
             </div>
         </section>
         <section id="sobre" class="secao">
 
-            <h2 class="titulo-secao">
-                sobre mim
-            </h2>
+            <h2 class="titulo-secao">sobre mim</h2>
             <div class="sobre-conteudo">
                 <div class="foto">
                     JS
 
                 </div>
 
+                <div class="sobre-texto">
+                    <h3>Quem sou eu?</h3>
+                    <p>Meu nome é junior e sou estudante
+                        de desenvolvimento de sistemas.
+                    </p>
+                    <p>
+                        Atualmente estou estudando desenvolvimento de sistemas web, programação 
+                        e criação de sistemas. Este portifólio reúne alguns dos projetos desenvolvidos por mim.
+                    </p>
+                    <p>
+                        Meu objetivo é continuar evoluindo como desenvolvedor e aprender novas tecnologias.
+                    </p>
+                </div>
             </div>
         </section>
         <section id="habilidades" class="secao secao-destaque">
@@ -117,52 +129,75 @@
 
         <!-- projeto 1 -->
         <div class="projetos-container">
+                <div projetos-card>
+                    <div class="projetos-numero">01</div>
+                    <h3>Verificacao de idade</h3>
+                    <p>Sistema desenvolvido para praticar
+                        formularios e manioulação de dados 
+                    </p>
+                    <div class="tecnologias">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>PHP</span>
+                    </div>
+                    <a href="projeto/idade.php">
+                        ver projeto ➡
+                    </a>
+                    
+                    <!-- projeto 2 -->
+                    
+                    <div projeto-card>
+                        <div class="projetos-numero">02</div>
+                        <h3>Verificacao de Notas</h3>
+                        <p>Sistema desenvolvido para praticar
+                            formularios e manioulação de dados 
+                        </p>
+                        <div class="tecnologias">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>PHP</span>
+                        </div>
+                        <a href="projeto/notas.php">
+                            ver projeto ➡
+                        </a>
+                        
+                        <!-- projeto 3 -->
 
-            <div class="projeto-card">
-                <div class="projetos-numero">01</div>
-                <h3>Verificacao de idade</h3>
-                <p>Sistema desenvolvido para praticar
-                    formularios e manioulação de dados 
-                </p>
-                <div class="tecnologias">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>PHP</span>
+                        <div projeto-card>
+                               <div class="projetos-numero">03</div>
+                                <h3>login basico </h3>
+                                <p>Sistema desenvolvido para praticar
+                                    formularios e manioulação de dados 
+                                </p>
+                                <div class="tecnologias">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>PHP</span>
+                                </div>
+                                <a href="projeto/login-basico.php">
+                                    ver projeto ➡
+                                </a>
+                            </div>
+                        <!-- Projeto 4 -->
+                            <div projeto-card>
+                               <div class="projetos-numero">03</div>
+                                <h3>Cadastro de jogos</h3>
+                                <p>Sistema desenvolvido para praticar
+                                    formularios e manioulação de dados 
+                                </p>
+                                <div class="tecnologias">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>PHP</span>
+                                </div>
+                                <a href="projeto/jogos.php">
+                                    ver projeto ➡
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <a href="projeto-idade.php"></a>
-
-                <!-- projeto 2 -->
-
-                <div class="projeto-notas">
-                <div class="projetos-numero">02</div>
-                <h3>Verificacao de Notas</h3>
-                <p>Sistema desenvolvido para praticar
-                    formularios e manioulação de dados 
-                </p>
-                <div class="tecnologias">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>PHP</span>
-                </div>
-                <a href="projeto-notas.php"></a>
-
-                <!-- projeto 3 -->
-                 <div class="projeto-login">
-                <div class="projetos-numero">03</div>
-                <h3>login basico </h3>
-                <p>Sistema desenvolvido para praticar
-                    formularios e manioulação de dados 
-                </p>
-                <div class="tecnologias">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>PHP</span>
-                </div>
-                <a href="projeto-login-basico.php"></a>
-            </div>
-        </div>
-        </section>
-    </main>
-</div>
-</body>
-</html>
+                </section>
+            </main>
+    </body>
+    </html>
