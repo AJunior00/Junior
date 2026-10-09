@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 </head>
 <body>
     <main class="login-card">
-        <a class="back-link" href="index.php">← Voltar ao início</a>
+        <a class="back-link" href="../index.php/#projetos">← Voltar ao início</a>
         <div class="login-heading">
             <span class="eyebrow">ACESSO</span>
             <h1>Boas-vindas</h1>

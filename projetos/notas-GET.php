@@ -59,7 +59,7 @@ require __DIR__. "/../conexao.php";
 <body>
     <div class="cor">
 
-    <p><a href="index.php">Voltar ao início</a></p>
+    <p><a href="../index.php/#projetos">Voltar ao início</a></p>
 <br><br><br>
 
     <h1>Leitor de notas</h1>
