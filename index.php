@@ -67,7 +67,7 @@
         </div>
         </section>
 
-        <section id="habilidades" class="secao secao-destaque">
+        <section id="habilidades" class="secao-destaque">
             <h2 class="titulo-secao">Minhas habilidades</h2>
             <p class="subtitulo-secao">
                 Algumas tecnologias que estou estudando

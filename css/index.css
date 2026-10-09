@@ -106,12 +106,14 @@ header {
     max-width: 1100px;
     margin: auto;
     padding: 80px 20px;
+    background-color: #202F4A;
 }
 
 .titulo-secao {
     font-size: 35px;
     text-align: center;
     margin-bottom: 10px;
+    color: white;
 }
 
 .subtitulo-secao {
@@ -144,21 +146,31 @@ header {
 .sobre-texto h3 {
     font-size: 25px;
     margin-bottom: 15px;
+    color: white;
 }
 
 .sobre-texto p {
     margin-bottom: 15px;
+    color: #dde0e2;
 }
 
 .secao-destaque {
     max-width: 100%;
-    background-color: #e5e7eb;
+    background-color: #17191D;
 }
 
 .secao-destaque > * {
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.titulo-secao{
+    color: #F1F3F5;
+}
+
+.subtitulo-secao{
+    color: #B8C3D1;
 }
 
 .lista-habilidades {
@@ -169,15 +181,18 @@ header {
 }
 
 .habilidade {
-    background-color: white;
+    background-color: #252A32;
     padding: 15px 25px;
     border-radius: 8px;
     font-weight: bold;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+    color: #F1F3F5;
+    border: 1px solid #3A424D;
 }
 
 .habilidade:hover {
     transform: translateY(-3px);
+    border-color: #3B82F6;
 }
 
 .projetos-container {
