@@ -48,14 +48,14 @@ header {
 }
 
 .menu a:hover {
-    color: #103057;
+    color: #60a5fa;
 }
 
 .inicio {
     min-height: 85vh;
     display: flex;
     align-items: center;
-    background-color: #89a4df;
+    background-color: #163068;
     color: white;
 }
 
