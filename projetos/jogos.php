@@ -39,7 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <body class="pagina-notas">
 
 
-<p><a href="#projetos/index.php">Voltar ao início</a></p>
+<p><a href="../index.php">Voltar ao início</a></p>
 <br><br><br>
 
 
