@@ -11,27 +11,29 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $equipamento = $_POST["equipamento"] ?? "";
         $descricao = $_POST["descricao"] ?? "";
         $prioridade = $_POST["prioridade"] ?? "";
-
-        cadastrarChamados($nome, $setor, $equipamento, $descricao, $prioridade);
-    } 
-    else if ($acao == "atualizar") {
-        $posicao = $_POST["posicao"] ?? null;
-        $novoStatus = $_POST["status"] ?? "";
-
-        if ($posicao !== null) {
-            atualizarStatusChamado($posicao, $novoStatus);
+        
+        cadastrarChamado($nome, $setor, $equipamento, $descricao, $prioridade);
         }
-    }           
-    else if ($acao == "excluir") {
-        $posicao = $_POST["posicao"] ?? null;
-
-        if ($posicao !== null) {
-            excluirChamado($posicao);
-        }
-    }
+        
+            
+            else if ($acao == "atualizar") {
+                $posicao = $_POST["posicao"] ?? null;
+                $novoStatus = $_POST["status"] ?? "";
+               
+                if ($posicao !== null) {
+                    atualizarChamado($posicao, $novoStatus);
+                       }           
+                    }                     
+                    
+                    else if ($acao == "excluir") {
+                        $posicao = $_POST["posicao"] ?? null;
+                        
+                        if ($posicao !== null) {
+                            excluirChamado($posicao);
+                        }
+                     }   
 }
-
-$chamados = lerChamados();
+$chamados = listarChamados();
 $relatorio = gerarRelatorio($chamados);
 
 ?>
