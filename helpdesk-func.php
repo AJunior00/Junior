@@ -3,7 +3,7 @@
 
 // Caminho do arquivo JSON
 function caminhoArquivo() {
-    return __DIR__ . '/chamados.json';
+    return __DIR__ . '../dados/chamados.json';
 }
 
 // Lê os chamados armazenados no JSON
