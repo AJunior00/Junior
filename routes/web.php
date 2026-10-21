@@ -4,12 +4,11 @@
     
     return [
         'GET' => [
-            'portfolio' => [],
-            'helpdesk' => [],
-            'jogos' => [],
+            'portfolio' => [new PortfolioController(),'index'],
+            'helpdesk' => [new HelpdeskController(),'index'],
         ],
         'POST' => [
-            'helpdesk' => []
+            'helpdesk' => [new HelpdeskController(), '']
         ]
     ];
 
