@@ -16,7 +16,7 @@
     <header>
             <nav class="navbar">
 
-                <h2 class="logo">Meu Portifólio</h2>
+                <h2 class="logo">Meu Portfólio</h2>
 
                 <ul class="menu">
                     <li><a href="#inicio">Início</a></li>
