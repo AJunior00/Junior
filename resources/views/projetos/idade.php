@@ -1,0 +1,70 @@
+<?php
+require __DIR__. "/../conexao.php";
+
+$nome = "";
+
+$idade = 0;
+
+$mostrar = "";
+
+if ($_SERVER ["REQUEST_METHOD"] == "POST"){
+    
+    $nome = $_POST["nome"];
+    $idade = $_POST["idade"];
+    
+    if ($idade >=18){
+        $mostrar = " de maior";
+    }
+    else {
+        $mostrar = "de menor";
+    }
+}
+?>
+
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="idade.css">
+    
+    <title>bla bla sla</title>
+</head>
+<body>
+    <div class="">
+
+        
+        <form method="POST">
+            
+            <input type="text" id="nome" name="nome" placeholder="Digite seu Nome">
+            <br>
+            <br>
+            
+            <input type="number" id="idade"  name="idade" placeholder="Digite sua idade">
+            <br>
+            <br>
+            <div class="dv">
+                
+                <button type="submit">enviar</button>
+            </div>
+        </form>
+        
+        <div class="cardIdade">
+            
+            
+            <h1>Mostrando Nome e Idade</h1>
+            <br>
+            
+            <p>O meu nome é <?=  $nome?> </p>
+            <br>
+            <p>Minha idade é <?=  $idade?> </p>
+            <br>
+            <p>Você é <?= $mostrar?> </p>
+            
+        </div>
+    </div>
+        
+    </body>
+    </html>
+    
+    
