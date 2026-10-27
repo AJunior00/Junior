@@ -7,27 +7,28 @@ class personagem {
     private $vida;
     public $dano;
 
+abstract class personagem {
+
     public function __construct($nome, $vida, $dano) {
         $this->nome = $nome;
         $this->vida = $vida;
         $this->dano = $dano;
-    }
-
-    public function getVida() {
-        return $this->vida;
-    }
-
-    public function setVida($vida) {
-        $junior = new personagem("junior", 50, 15);
-        $matheus = new personagem("matheus", 50, 15);
-    }
-
-    public function atacar() {
-        echo "$this->nome realizou um ataque!";
-
-   }
+        }
+        
+        public function getVida() {
+            return $this->vida;
+            }
+            
+            public function setVida($vida) {
+                $junior = new personagem("junior", 50, 15);
+                $matheus = new personagem("matheus", 50, 15);
+                }
+                
+        $this->nome = $vida;
 }
-
+         abstract public function atacar();
+                    }
+                
 $junior = new personagem("junior", 100, 10);
 
 $junior->setVida(75);
@@ -38,20 +39,14 @@ $felipe = new personagem("felipe", 30, 3);
 
 $junior->atacar();
 
-class guerreiro extends personagem {
-    public function defender(){
-        echo "$this->nome levantou o escudo!";
-    }
-}
-
-class Guerreiro extends Personagem {
-    // Sobreescrevendo o método da classe pai
+class Guerreiro extends personagem {
     public function atacar(){
-        echo "$this->nome atacou com uma espada!\n";
+        echo "$this->nome atacou com a espada!";
     }
-    public function defender(){
-        echo "$this->nome levantou o escudo!\n";
-    }
+
+public function defender(){
+        echo "$this->nome levantou o escudo!";    }
+
 }
 class Mago extends Personagem {
     // Sobreescrevendo o método da classe pai
@@ -59,14 +54,26 @@ class Mago extends Personagem {
         echo "$this->nome lançou uma bola de fogo!\n";
     }
 }
+class Curandeiro extends Personagem {
+    // Sobreescrevendo o método da classe pai
+    public function atacar(){
+        echo "$this->nome atacou com uma faca!\n";
+    }
+
+    public function curar(Personagem $alvo, int $quantidade) {
+        $novaVida = $alvo->getVida() + $quantidade;
+        $alvo->setVida($novaVida); 
+        echo "$this->nome !\n";
+    }
+
+}
 
 
-$guerreiro = new guerreiro("junior", 100, 10);
+$guerreiro = new Guerreiro("junior", 100, 10);
+$mago = new Mago("matheus", 50, 5);
+$curandeiro = new Curandeiro("joao", 100, 3);
 
-$mago = new mago("matheus", 50, 5);
-$personagem = new personagem("felipe", 30, 3);
-
-$personagens = [$guerreiro, $mago, $personagem];
+$personagens = [$guerreiro, $mago, $curandeiro];
 
 foreach ($personagens as $p) {
     $p->atacar();
