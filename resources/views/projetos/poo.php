@@ -2,12 +2,12 @@
 
 <?php
 
-class personagem {
+
+abstract class personagem {
+
     public $nome;
     private $vida;
     public $dano;
-
-abstract class personagem {
 
     public function __construct($nome, $vida, $dano) {
         $this->nome = $nome;
@@ -19,25 +19,17 @@ abstract class personagem {
             return $this->vida;
             }
             
-            public function setVida($vida) {
-                $junior = new personagem("junior", 50, 15);
-                $matheus = new personagem("matheus", 50, 15);
-                }
+              public function setVida($vida){
+        if ($vida < 0){
+            echo "Vida não pode ser menor que 0!";
+            return;
+        }
                 
         $this->nome = $vida;
 }
          abstract public function atacar();
-                    }
-                
-$junior = new personagem("junior", 100, 10);
-
-$junior->setVida(75);
-
-$matheus = new personagem("matheus", 50, 5);
-$felipe = new personagem("felipe", 30, 3);
-
-
-$junior->atacar();
+                    
+}
 
 class Guerreiro extends personagem {
     public function atacar(){
