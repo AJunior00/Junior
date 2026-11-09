@@ -32,7 +32,7 @@
         <section id="inicio" class="inicio">
             <div class="inicio-conteudo">
                 <p class="saudacao">Olá! Eu sou</p>
-                <h1>Almir Junior</h1>
+                <h1>Junior</h1>
                 <h2>Desenvolvedor em formação</h2>
                 <p>Sou estudante de desenvolvimento de sistemas,
                     em busca de oportunidades para aplicar 
