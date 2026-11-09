@@ -1,8 +1,22 @@
 <?php
-    class PortfolioController
+
+namespace App\Http\Controllers;
+
+use App\Http\Controllers\Controller;
+use App\Models\Chamado;
+
+ 
+class HttpController extends Controller
+{
+    // GET - Exibir a página do Helpdesk
+    public function index()
     {
-        public function index(){
-            require __DIR__ . "/../../../resources/views/portfolio.php";
-        }
+ 
+        return view('projetos.helpdesk');
+
     }
-?>
+ 
+    // POST - Receber os formulários do Helpdesk
+  
+}
+ 

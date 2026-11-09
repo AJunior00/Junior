@@ -99,7 +99,7 @@
                         <span>CSS</span>
                         <span>PHP</span>
                     </div>
-                    <a href="" class="link-projeto">
+                    <a href="{{ route ('idade') }}" class="link-projeto" class="link-projeto">
                         Ver projeto ➡
                     </a>
                 </div>
@@ -115,7 +115,7 @@
                         <span>CSS</span>
                         <span>PHP</span>
                     </div>
-                    <a href="/resources/views/projetos/notas.php" class="link-projeto">
+                    <a href="{{ route ('notas') }}" class="link-projeto">
                         Ver projeto ➡
                     </a>
                 </div>
@@ -131,7 +131,7 @@
                         <span>CSS</span>
                         <span>PHP</span>
                     </div>
-                    <a href="/resources/views/projetos/login-basico.php" class="link-projeto">
+                    <a href="{{ route ('login-basico') }}" class="link-projeto">
                         Ver projeto ➡
                     </a>
                 </div>
@@ -147,7 +147,7 @@
                         <span>CSS</span>
                         <span>PHP</span>
                     </div>
-                    <a href="/resources/views/projetos/jogos.php" class="link-projeto">
+                    <a href="{{ route ('jogos') }}" class="link-projeto">
                         Ver projeto ➡
                     </a>
                 </div>
@@ -164,7 +164,7 @@
                         <span>PHP</span>
                         <span>JSON</span>
                     </div>
-                    <a href="/resources/views/projetos/helpdesk.php" class="link-projeto">
+                    <a href="{{ route ('poo') }}" class="link-projeto">
                         Ver projeto ➡
                     </a>
                 </div>
@@ -179,7 +179,7 @@
                         <span>CSS</span>
                         <span>PHP</span>
                     </div>
-                    <a href="/resources/views/projetos/poo2.php" class="link-projeto">
+                    <a href="{{ route ('poo2') }}" class="link-projeto">
                         Ver projeto ➡
                     </a>
                 </div>
